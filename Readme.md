@@ -4,13 +4,14 @@
 
 ```
 color-model-converter/
-├── app.py                  # File chính của ứng dụng FastAPI
-├── shader_manager.py       # Module quản lý shader OpenGL
-├── requirements.txt        # Danh sách các thư viện phụ thuộc
-├── .env                    # File cấu hình môi trường
-└── static/                 # Thư mục chứa các file tĩnh
-    ├── index.html          # Giao diện người dùng
-    └── script.js           # JavaScript cho UI
+├── app.py                  # File chính của ứng dụng FastAPI, chứa logic backend và chạy server
+├── main.py                 # File chứa mã thử nghiệm hoặc logic bổ sung, không dùng để chạy ứng dụng chính
+├── shader_manager.py       # Module quản lý shader OpenGL để xử lý chuyển đổi mô hình màu
+├── requirements.txt        # Danh sách các thư viện phụ thuộc cần cài đặt
+├── .env                    # File cấu hình môi trường, định nghĩa biến như PORT (mặc định: 8000)
+└── static/                 # Thư mục chứa các file tĩnh cho giao diện người dùng
+    ├── index.html          # Giao diện người dùng (HTML) cho ứng dụng web
+    └── script.js           # JavaScript xử lý tương tác UI và gửi yêu cầu đến backend
 ```
 
 ## Cài đặt
@@ -54,7 +55,7 @@ color-model-converter/
 
 ## Sử dụng ứng dụng
 
-1. **Tải lên hình ảnh**: Nhấp vào nút "Choose File" để chọn một hình ảnh từ máy tính của bạn.
+1. **Tải lên hình ảnh**: Nhấp vào nút "Choose Image" để chọn một hình ảnh từ máy tính của bạn.
 
 2. **Chọn mô hình màu**: Từ menu thả xuống, chọn mô hình màu mà bạn muốn chuyển đổi hình ảnh sang.
 
