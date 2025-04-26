@@ -110,7 +110,7 @@ PORT=8000
 ### Khởi động server
 
 ```bash
-python app.py
+python main.py
 ```
 
 Sau khi khởi động thành công, bạn sẽ thấy thông báo tương tự như sau:
