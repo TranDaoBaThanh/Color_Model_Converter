@@ -52,8 +52,7 @@ Dự án này tập trung vào các mô hình màu phổ biến nhất để đ�
 
 ```
 color-model-converter/
-├── app.py                  # File chính của ứng dụng FastAPI, chứa logic backend và chạy server
-├── main.py                 # File chứa mã thử nghiệm hoặc logic bổ sung, không dùng để chạy ứng dụng chính
+├── main.py                  # File chính của ứng dụng FastAPI, chứa logic backend và chạy server
 ├── shader_manager.py       # Module quản lý shader OpenGL để xử lý chuyển đổi mô hình màu
 ├── requirements.txt        # Danh sách các thư viện phụ thuộc cần cài đặt
 ├── .env                    # File cấu hình môi trường, định nghĩa biến như PORT (mặc định: 8000)
